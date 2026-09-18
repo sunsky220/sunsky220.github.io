@@ -54,3 +54,8 @@ footer {
     padding: 30px;
     color: #777;
 }
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
